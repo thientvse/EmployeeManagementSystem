@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    container_name: employee-management
+    image: employee-management:latest
+    ports:
+      - 8087:8087
